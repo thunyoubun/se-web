@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 export default function Card(props: any) {
   return (
     <div className="flex justify-center align-middle w-full  ">
-      <div className=" flex flex-col justify-center bg-white/75  w-64 p-4 rounded-lg backdrop-blur-md">
+      <div className=" flex flex-col justify-center bg-white  w-64 p-4 rounded-lg backdrop-blur-md">
         <div className=" border-4 rounded-full ring-4 ring-blue-600">
           <img className=" object-contain rounded-full w-64" src={props.src} />
         </div>
