@@ -1,44 +1,61 @@
 export const cards = [
   {
     fname: "Jik Jukjik",
-    job: "Frontend Dev",
+    job: "Project Manager ,Systems Analyst",
     src: "/assets/people/jik.jpg",
     github: "https://github.com/thunyoubun",
-    facebook: "https://www.facebook.com/switch.2412",
+    facebook: "https://www.facebook.com/jukjik.suparida",
   },
   {
     fname: "Lalinthorn Pholnaruk",
-    job: "Frontend Dev",
+    job: "Developer ,Designer",
     src: "/assets/people/Pye.jpg",
     github: "https://github.com/thunyoubun",
-    facebook: "https://www.facebook.com/switch.2412",
+    facebook: "https://www.facebook.com/LP.Pye",
   },
   {
     fname: "Latthaphol Work",
-    job: "Frontend Dev",
+    job: "Systems Analyst, Designer",
     src: "/assets/people/work.jpg",
     github: "https://github.com/thunyoubun",
-    facebook: "https://www.facebook.com/switch.2412",
+    facebook: "https://www.facebook.com/LatthapholWork",
   },
   {
     fname: "PunPun Siriwat",
-    job: "Frontend Dev",
+    job: "Tester",
     src: "/assets/people/pun.jpg",
     github: "https://github.com/thunyoubun",
-    facebook: "https://www.facebook.com/switch.2412",
+    facebook: "https://www.facebook.com/siriwat.songwattana.9",
   },
   {
     fname: "Thun Anuntarat",
-    job: "Frontend Dev",
+    job: "Frontend Developer, Dev",
     src: "/assets/people/thun.jpg",
     github: "https://github.com/thunyoubun",
     facebook: "https://www.facebook.com/switch.2412",
   },
   {
     fname: "อัฑฒ์พงศ์ เอื้อวงษ์ชัย",
-    job: "Frontend Dev",
+    job: "Developer",
     src: "/assets/people/pheem.jpg",
     github: "https://github.com/thunyoubun",
-    facebook: "https://www.facebook.com/switch.2412",
+    facebook: "https://www.facebook.com/profile.php?id=100000200849341",
   },
+];
+
+export const plats = [
+  {
+    name: "Discord",
+    src: "/assets/platform/discord.png",
+  },
+  { name: "Github", src: "/assets/platform/github.png" },
+  {
+    name: "Facebook",
+    src: "/assets/platform/facebook.png",
+  },
+];
+
+export const docs = [
+  { id: "0", num: "One", name: "Team List", src: "" },
+  { id: "1", num: "Two", name: "Project Proposal", src: "" },
 ];

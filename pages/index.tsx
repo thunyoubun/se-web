@@ -1,6 +1,10 @@
 import code from "./assets/background/gg.jpg";
 import overview from "./assets/background/R12020-Messaging-Graphic.png";
 import Image from "next/image";
+import Plat from "../components/Plat";
+import Link from "next/link";
+
+import { plats } from "../components/data";
 
 export default function Home() {
   return (
@@ -20,9 +24,11 @@ export default function Home() {
               </p>
             </div>
             <div className="space-x-4">
-              <button className="text-white rounded-md hover:bg-white hover:text-black  border py-2 px-5">
-                View Documents
-              </button>
+              <Link href="/work">
+                <button className="text-white rounded-md hover:bg-white hover:text-black  border py-2 px-5">
+                  View Documents
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -31,9 +37,9 @@ export default function Home() {
       <div className="bg-gradient-to-r from-sky-500 to-indigo-500">
         <div className="flex flex-col text-center justify-center w-4/5 m-auto py-10">
           <div className="w-full xl:w-1/2 m-auto text-center my-10 space-y-5">
-            <h1 className=" text-3xl font-bold text-white">
+            <h3 className=" text-4xl font-bold text-white">
               Software Overview
-            </h1>
+            </h3>
             <p className=" text-gray-200">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
               ullam eius laborum consequatur a libero facere iste quos nemo
@@ -48,7 +54,7 @@ export default function Home() {
 
           <div>
             <div className="w-full xl:w-1/2 m-auto text-center my-10 space-y-5">
-              <h1 className=" text-3xl font-bold text-white">Platform</h1>
+              <h3 className=" text-4xl font-bold text-white">Platform</h3>
               <p className=" text-gray-200">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                 ullam eius laborum consequatur a libero facere iste quos nemo
@@ -56,8 +62,12 @@ export default function Home() {
               </p>
             </div>
 
-            <div>
-              <div className="flex justify-center"></div>
+            <div className="flex justify-center">
+              <div className=" mt-5 grid grid-cols-2 sm:grid-cols-3 text-center gap-8 p-4 ">
+                {plats.map((x) => (
+                  <Plat fname={x.name} src={x.src} />
+                ))}
+              </div>
             </div>
           </div>
         </div>
