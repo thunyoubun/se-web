@@ -1,5 +1,5 @@
-import Card from "./components/Card";
-import { cards } from "./data";
+import Card from "../components/Card";
+import { cards } from "../components/data";
 
 export default function contact() {
   return (

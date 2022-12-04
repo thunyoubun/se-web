@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
@@ -13,7 +14,8 @@ export default function Card({ fname, job, src, github, facebook }: props) {
     <div className="flex justify-center align-middle w-full  ">
       <div className=" flex flex-col justify-center bg-white  w-64 p-4 rounded-lg backdrop-blur-md">
         <div className=" border-4 rounded-full ring-4 ring-blue-600">
-          <img className=" object-contain rounded-full w-64" src={src} />
+          <Image width={500} height={500} className=" object-contain rounded-full w-64" src={src} alt=""></Image>
+          {/* <img className=" object-contain rounded-full w-64" src={src} /> */}
         </div>
         <div className="flex flex-col justify-center text-center my-4">
           <h1 className=" text-xl font-semibold">{fname}</h1>
