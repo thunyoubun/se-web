@@ -15,7 +15,13 @@ export default function work() {
           <div className="m-auto p-auto h-screen  w-4/5">
             <div className="flex flex-col    gap-2">
               {docs.map((x) => (
-                <Work id={x.id} num={x.num} name={x.name} src={x.src} />
+                <Work
+                  id={x.id}
+                  num={x.num}
+                  name={x.name}
+                  src={x.src}
+                  key={docs.indexOf(x)}
+                />
               ))}
             </div>
           </div>

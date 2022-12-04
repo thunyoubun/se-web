@@ -65,7 +65,7 @@ export default function Home() {
             <div className="flex justify-center">
               <div className=" mt-5 grid grid-cols-2 sm:grid-cols-3 text-center gap-8 p-4 ">
                 {plats.map((x) => (
-                  <Plat fname={x.name} src={x.src} />
+                  <Plat fname={x.name} src={x.src} key={plats.indexOf(x)} />
                 ))}
               </div>
             </div>
