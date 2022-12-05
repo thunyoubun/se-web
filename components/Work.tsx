@@ -30,7 +30,7 @@ export default function Work({ name, id, src, num }: props) {
     changeColor;
   }, []);
   return (
-    <div className="accordion w-full" id="accordionExample">
+    <div className="accordion w-full " id="accordionExample">
       <div className="accordion-item bg-white border border-gray-200">
         <h2 className="accordion-header mb-0  " id="headingOne">
           <button

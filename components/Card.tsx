@@ -11,8 +11,8 @@ export declare type props = {
 };
 export default function Card({ fname, job, src, github, facebook }: props) {
   return (
-    <div className="flex justify-center align-middle w-full  ">
-      <div className=" flex flex-col justify-center bg-white  p-4 rounded-lg  backdrop-blur-md">
+    <div className="flex justify-center align-middle w-full   ">
+      <div className=" flex flex-col justify-center bg-white  p-4 rounded-lg shadow-md  backdrop-blur-md">
         <div className=" border-4 rounded-full ring-4 ring-blue-600 relative  w-64 h-64 ">
           <Image
             layout="fill"
