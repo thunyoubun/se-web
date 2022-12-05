@@ -56,6 +56,11 @@ export const plats = [
 ];
 
 export const docs = [
-  { id: "0", num: "One", name: "Team List", src: "" },
-  { id: "1", num: "Two", name: "Project Proposal", src: "" },
+  { id: "0", num: "One", name: "Team List", src: "/assets/file/Se-Group.pdf" },
+  {
+    id: "1",
+    num: "One",
+    name: "Project Proposal",
+    src: "/assets/file/Se-Group.pdf",
+  },
 ];

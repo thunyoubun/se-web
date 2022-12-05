@@ -13,7 +13,7 @@ export default function work() {
           </div>
 
           <div className="m-auto p-auto h-screen  w-4/5">
-            <div className="flex flex-col    gap-2">
+            <div className="flex flex-col gap-2" id="">
               {docs.map((x) => (
                 <Work
                   id={x.id}

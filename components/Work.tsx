@@ -1,5 +1,5 @@
+import React, { useState } from "react";
 import { useEffect } from "react";
-import React from "react";
 import { AiOutlineFileDone } from "react-icons/ai";
 
 export declare type props = {
@@ -10,31 +10,47 @@ export declare type props = {
 };
 
 export default function Work({ name, id, src, num }: props) {
+  const [onClicked, setOnclicked] = useState(false);
+  const [textColor, setTextColor] = useState("text-gray-800");
+
+  const handleClick = () => {
+    setOnclicked(!onClicked);
+    console.log(onClicked);
+  };
+
+  const changeColor = () => {
+    setOnclicked(!onClicked);
+    if (!onClicked) {
+      setTextColor("text-blue-600");
+    } else {
+      setTextColor("text-gray-800");
+    }
+  };
   useEffect(() => {
-    const use = async () => {
-      (await import("tw-elements")).default;
-    };
-    use();
+    changeColor;
   }, []);
   return (
     <div className="accordion w-full" id="accordionExample">
       <div className="accordion-item bg-white border border-gray-200">
-        <h2 className="accordion-header mb-0" id="headingOne">
+        <h2 className="accordion-header mb-0  " id="headingOne">
           <button
-            className="
+            onClick={changeColor}
+            className={`
           accordion-button
           relative
           flex
+          collapsed
           items-center
           w-full
           py-4
           px-5
-          text-base text-gray-800 text-left
+          text-base ${textColor} text-left
           border-0
           rounded-none
+        
           transition
           focus:outline-none
-        "
+            `}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target={`#collapse${num}`}
@@ -49,25 +65,30 @@ export default function Work({ name, id, src, num }: props) {
             </div>
           </button>
         </h2>
-        <div
-          id={`collapse${num}`}
-          className="accordion-collapse collapse "
-          aria-labelledby={`heading${num}`}
-          data-bs-parent="#accordionExample"
-        >
-          <div className="accordion-body  py-4 px-5">
-            <strong>{name} - </strong> Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quaerat praesentium harum odio repellendus aliquam
-            velit quo, beatae illum accusamus quos corrupti minus alias sapiente
-            porro! Qui vero autem porro suscipit.
-            <embed
-              src="/assets/file/Se-Group.pdf"
-              width="100%"
-              height={500}
-              type="application/pdf"
-            />
+        {!onClicked ? (
+          <div></div>
+        ) : (
+          <div
+            id={`collapse${num}`}
+            className="accordion-collapse  "
+            aria-labelledby={`heading${num}`}
+            data-bs-parent="#accordionExample"
+          >
+            <hr></hr>
+            <div className="accordion-body  py-4 px-5">
+              <strong>{name} - </strong> Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Quaerat praesentium harum odio repellendus
+              aliquam velit quo, beatae illum accusamus quos corrupti minus
+              alias sapiente porro! Qui vero autem porro suscipit.
+              <embed
+                src={src}
+                width="100%"
+                height={500}
+                type="application/pdf"
+              />
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
