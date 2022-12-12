@@ -56,11 +56,11 @@ export const plats = [
 ];
 
 export const docs = [
-  { id: "0", num: "One", name: "Team List", src: "/assets/file/Se-Group.pdf" },
+  { id: "0", num: "One", name: "Team List", src: "/assets/file/Se-A0.pdf" },
   {
     id: "1",
     num: "One",
     name: "Project Proposal",
-    src: "/assets/file/Se-Group.pdf",
+    src: "/assets/file/Se-A1.pdf",
   },
 ];

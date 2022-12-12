@@ -51,17 +51,19 @@ export default function Home() {
               <Image src={overview} alt="f" />
             </div>
           </div>
-
+        </div>
+      </div>
+      <div className="bg-gradient-to-r from-violet-500 to-sky-500">
+        <div className="flex flex-col text-center justify-center w-4/5 m-auto py-10">
+          <div className="w-full xl:w-1/2 m-auto text-center my-10 space-y-5">
+            <h3 className=" text-4xl font-bold text-white">Platform</h3>
+            <p className=" text-gray-200">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              ullam eius laborum consequatur a libero facere iste quos nemo
+              rerum.
+            </p>
+          </div>
           <div>
-            <div className="w-full xl:w-1/2 m-auto text-center my-10 space-y-5">
-              <h3 className=" text-4xl font-bold text-white">Platform</h3>
-              <p className=" text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                ullam eius laborum consequatur a libero facere iste quos nemo
-                rerum.
-              </p>
-            </div>
-
             <div className="flex justify-center">
               <div className=" mt-5 grid grid-cols-2 sm:grid-cols-3 text-center gap-8 p-4 ">
                 {plats.map((x) => (
