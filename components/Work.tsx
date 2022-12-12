@@ -12,6 +12,7 @@ export declare type props = {
 export default function Work({ name, id, src, num }: props) {
   const [onClicked, setOnclicked] = useState(false);
   const [textColor, setTextColor] = useState("text-gray-800");
+  const [collap, setCollap] = useState("collapsed");
 
   const handleClick = () => {
     setOnclicked(!onClicked);
@@ -22,8 +23,10 @@ export default function Work({ name, id, src, num }: props) {
     setOnclicked(!onClicked);
     if (!onClicked) {
       setTextColor("text-blue-600");
+      setCollap("");
     } else {
       setTextColor("text-gray-800");
+      setCollap("collapsed");
     }
   };
   useEffect(() => {
@@ -39,7 +42,7 @@ export default function Work({ name, id, src, num }: props) {
           accordion-button
           relative
           flex
-          collapsed
+          ${collap}
           items-center
           w-full
           py-4
@@ -47,8 +50,9 @@ export default function Work({ name, id, src, num }: props) {
           text-base ${textColor} text-left
           border-0
           rounded-none
-        
           transition
+           delay-1s
+           ease-out
           focus:outline-none
             `}
             type="button"
