@@ -29,7 +29,7 @@ export const cards = [
   },
   {
     fname: "Thun Anuntarat",
-    job: "Frontend Developer, Dev",
+    job: "Frontend Developer",
     src: "/assets/people/thun.jpg",
     github: "https://github.com/thunyoubun",
     facebook: "https://www.facebook.com/switch.2412",
