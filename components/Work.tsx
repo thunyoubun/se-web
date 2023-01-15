@@ -80,10 +80,14 @@ export default function Work({ name, id, src, num }: props) {
           >
             <hr></hr>
             <div className="accordion-body  py-4 px-5">
-              <strong>{name} - </strong> Lorem ipsum dolor sit, amet consectetur
+              <strong>
+                {name}
+                {/* - */}
+              </strong>
+              {/*  Lorem ipsum dolor sit, amet consectetur
               adipisicing elit. Quaerat praesentium harum odio repellendus
               aliquam velit quo, beatae illum accusamus quos corrupti minus
-              alias sapiente porro! Qui vero autem porro suscipit.
+              alias sapiente porro! Qui vero autem porro suscipit. */}
               <iframe src={src} width="100%" height={500}></iframe>
             </div>
           </div>
