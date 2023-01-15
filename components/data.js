@@ -63,4 +63,10 @@ export const docs = [
     name: "Project Proposal",
     src: "/assets/file/Se-A1.pdf",
   },
+  {
+    id: "2",
+    num: "Two",
+    name: "Software Requirements Specification (SRS)",
+    src: "/assets/file/Se-A2.pdf",
+  },
 ];
