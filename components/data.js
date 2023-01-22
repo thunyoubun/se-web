@@ -69,4 +69,10 @@ export const docs = [
     name: "Software Requirements Specification (SRS)",
     src: "/assets/file/Se-A2.pdf",
   },
+  {
+    id: "3",
+    num: "Three",
+    name: "Design Specification (A-DAPT",
+    src: "/assets/file/Se-A3.pdf",
+  },
 ];
