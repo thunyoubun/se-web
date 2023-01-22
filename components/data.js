@@ -72,7 +72,7 @@ export const docs = [
   {
     id: "3",
     num: "Three",
-    name: "Design Specification (A-DAPT",
+    name: "Design Specification (A-DAPT)",
     src: "/assets/file/Se-A3.pdf",
   },
 ];
