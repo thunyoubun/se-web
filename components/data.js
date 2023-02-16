@@ -75,4 +75,10 @@ export const docs = [
     name: "Design Specification (A-DAPT)",
     src: "/assets/file/Se-A3.pdf",
   },
+  {
+    id: "4",
+    num: "Foir",
+    name: "Sprint #1 (Oral Presentation & Slides & UI)",
+    src: "/assets/file/Se-A4.pdf",
+  },
 ];
