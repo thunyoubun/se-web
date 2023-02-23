@@ -81,4 +81,10 @@ export const docs = [
     name: "Sprint #1 (Oral Presentation & Slides & UI)",
     src: "/assets/file/Se-A4.pdf",
   },
+  {
+    id: "4",
+    num: "Five",
+    name: "Sprint #1 (VIDEO)",
+    src: "https://www.canva.com/design/DAFbZ8wZabM/XHhrK0AkctlJ5akzgZav_A/watch?utm_content=DAFbZ8wZabM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&fbclid=IwAR2Th2ub0x1_tlBAsWOsesxwoGWxUPyEhYDn5B_Wa7si-0bGleav6F211BQ",
+  },
 ];

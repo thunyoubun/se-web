@@ -88,7 +88,14 @@ export default function Work({ name, id, src, num }: props) {
               adipisicing elit. Quaerat praesentium harum odio repellendus
               aliquam velit quo, beatae illum accusamus quos corrupti minus
               alias sapiente porro! Qui vero autem porro suscipit. */}
-              <iframe src={src} width="100%" height={500}></iframe>
+
+              {src.includes(".pdf") ? (
+                <iframe src={src} width="100%" height={500}></iframe>
+              ) : (
+                <a href={src} className="ml-4 underline hover:text-blue-500">
+                  LINK VIDEO
+                </a>
+              )}
             </div>
           </div>
         )}

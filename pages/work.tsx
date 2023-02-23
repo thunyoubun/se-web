@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function work() {
   return (
     <div className=" w-full m-auto relative  ">
-      <div className=" container  mx-auto flex bg-gradient-to-r  from-sky-500 to-indigo-500  ">
+      <div className=" c   flex bg-gradient-to-r  from-sky-500 to-indigo-500  ">
         <div className=" relative pt-20  m-auto h-max w-4/5 ">
           <div className="flex justify-center m-10">
             <h3 className=" text-4xl text-white font-bold ">Works</h3>
