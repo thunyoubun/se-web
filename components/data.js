@@ -87,4 +87,10 @@ export const docs = [
     name: "Sprint #1 (VIDEO)",
     src: "https://www.canva.com/design/DAFbZ8wZabM/XHhrK0AkctlJ5akzgZav_A/watch?utm_content=DAFbZ8wZabM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&fbclid=IwAR2Th2ub0x1_tlBAsWOsesxwoGWxUPyEhYDn5B_Wa7si-0bGleav6F211BQ",
   },
+  {
+    id: "6",
+    num: "Six",
+    name: "Sprint #2 (VIDEO)",
+    src: "https://drive.google.com/file/d/1I-0n1oy_KRXsLp-nXbxUy5grkpDyo1ag/view?fbclid=IwAR2InkMZoHqF2vxSGYd_urNwILFx1RBWgMIxPw7JCKghj5UG3LcOUNH0y4M",
+  },
 ];

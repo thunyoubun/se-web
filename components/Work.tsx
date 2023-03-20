@@ -92,7 +92,11 @@ export default function Work({ name, id, src, num }: props) {
               {src.includes(".pdf") ? (
                 <iframe src={src} width="100%" height={500}></iframe>
               ) : (
-                <a href={src} className="ml-4 underline hover:text-blue-500">
+                <a
+                  href={src}
+                  target="_blank"
+                  className="ml-4 underline hover:text-blue-500"
+                >
                   LINK VIDEO
                 </a>
               )}

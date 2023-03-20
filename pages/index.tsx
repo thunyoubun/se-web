@@ -24,9 +24,9 @@ export default function Home() {
               </p>
             </div>
             <div className="space-x-4">
-              <Link href="https://se-quizz.vercel.app/">
+              <Link href="https://se-quizz.vercel.app/" target="_blank">
                 <button className="text-white rounded-md hover:bg-white hover:text-black  border py-2 px-5">
-                  View Documents
+                  View Work
                 </button>
               </Link>
             </div>
