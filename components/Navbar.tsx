@@ -39,11 +39,9 @@ const Navbar = () => {
           <li className="p-4">
             <Link href="/">Home</Link>
           </li>
+          
           <li className="p-4">
-            <Link href="/about">About</Link>
-          </li>
-          <li className="p-4">
-            <Link href="https://se-quizz.vercel.app/">Work</Link>
+            <Link href="/work">Work</Link>
           </li>
           <li className="p-4">
             <Link href="/contact">Contact</Link>
