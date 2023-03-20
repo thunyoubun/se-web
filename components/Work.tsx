@@ -16,7 +16,6 @@ export default function Work({ name, id, src, num }: props) {
 
   const handleClick = () => {
     setOnclicked(!onClicked);
-    console.log(onClicked);
   };
 
   const changeColor = () => {
@@ -31,6 +30,7 @@ export default function Work({ name, id, src, num }: props) {
   };
   useEffect(() => {
     changeColor;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <div className="accordion w-full " id="accordionExample">
@@ -92,12 +92,7 @@ export default function Work({ name, id, src, num }: props) {
               {src.includes(".pdf") ? (
                 <iframe src={src} width="100%" height={500}></iframe>
               ) : (
-                <a
-                  href={src}
-                  target="_blank"
-                  rel="noopener"
-                  className="ml-4 underline hover:text-blue-500"
-                >
+                <a href={src} className="ml-4 underline hover:text-blue-500">
                   LINK VIDEO
                 </a>
               )}
