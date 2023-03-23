@@ -95,6 +95,7 @@ export default function Work({ name, id, src, num }: props) {
                 <a
                   href={src}
                   target="_blank"
+                  rel="noreferrer noopener"
                   className="ml-4 underline hover:text-blue-500"
                 >
                   LINK VIDEO
