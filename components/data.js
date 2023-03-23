@@ -83,9 +83,21 @@ export const docs = [
   },
   {
     id: "4",
-    num: "Five",
+    num: "Four",
     name: "Sprint #1 (VIDEO)",
     src: "https://www.canva.com/design/DAFbZ8wZabM/XHhrK0AkctlJ5akzgZav_A/watch?utm_content=DAFbZ8wZabM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&fbclid=IwAR2Th2ub0x1_tlBAsWOsesxwoGWxUPyEhYDn5B_Wa7si-0bGleav6F211BQ",
+  },
+  {
+    id: "5",
+    num: "Five",
+    name: "Test Report",
+    src: "/assets/file/Se-A5.pdf",
+  },
+  {
+    id: "6",
+    num: "Six",
+    name: "Sprint #2 (SLIDE)",
+    src: "/assets/file/Se-A6.pdf",
   },
   {
     id: "6",

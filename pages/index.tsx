@@ -17,10 +17,14 @@ export default function Home() {
               <h2 className="text-3xl font-bold">Deviloper</h2>
 
               <p className="mx-10 text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                quam consequatur, necessitatibus dolorem, provident voluptas
-                esse recusandae impedit distinctio laboriosam modi a nulla
-                ratione quaerat?
+                `EasyQ`, quiz importer for 261111 Internet and Online Community
+                course from Chiang Mai University. Our solution enables the
+                course instructor to upload their quizzes as .doc or .docx file
+                and automatically import them into the LMS. The instructor is no
+                longer required to manually construct quizzes on the LMS
+                platform. As a result, time and workforce are saved, since
+                `EasyQ` handles all the works for you. Enjoy creating your new
+                quizzes with us!!
               </p>
             </div>
             <div className="space-x-4">
@@ -40,11 +44,7 @@ export default function Home() {
             <h3 className=" text-4xl font-bold text-white">
               Software Overview
             </h3>
-            <p className=" text-gray-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              ullam eius laborum consequatur a libero facere iste quos nemo
-              rerum.
-            </p>
+            <p className=" text-gray-200"></p>
           </div>
           <div>
             <div className="flex justify-center">
@@ -53,15 +53,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-r from-violet-500 to-sky-500">
+      <div className="bg-gradient-to-r from-sky-500 to-indigo-500">
         <div className="flex flex-col text-center justify-center w-4/5 m-auto py-10">
           <div className="w-full xl:w-1/2 m-auto text-center my-10 space-y-5">
             <h3 className=" text-4xl font-bold text-white">Platform</h3>
-            <p className=" text-gray-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              ullam eius laborum consequatur a libero facere iste quos nemo
-              rerum.
-            </p>
+            <p className=" text-gray-200"></p>
           </div>
           <div>
             <div className="flex justify-center">
