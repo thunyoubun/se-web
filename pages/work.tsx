@@ -7,14 +7,14 @@ import Footer from "../components/Footer";
 export default function work() {
   return (
     <div className=" w-full m-auto relative  ">
-      <div className=" c   flex bg-gradient-to-r  from-sky-500 to-indigo-500  ">
+      <div className="    flex bg-gradient-to-r  from-sky-500 to-indigo-500  ">
         <div className=" relative pt-20  m-auto h-max w-4/5 ">
           <div className="flex justify-center m-10">
             <h3 className=" text-4xl text-white font-bold ">Works</h3>
           </div>
           <div className="h-100 my-2 ">
             <div
-              className="flex flex-col gap-2 h-fit object-contain  mb-96  "
+              className="flex flex-col gap-2 h-fit object-contain  my-10  "
               id=""
             >
               {docs.map((x) => (
