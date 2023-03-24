@@ -105,4 +105,10 @@ export const docs = [
     name: "Sprint #2 (VIDEO)",
     src: "https://drive.google.com/file/d/1I-0n1oy_KRXsLp-nXbxUy5grkpDyo1ag/view?fbclid=IwAR2InkMZoHqF2vxSGYd_urNwILFx1RBWgMIxPw7JCKghj5UG3LcOUNH0y4M",
   },
+  {
+    id: "7",
+    num: "Seven",
+    name: "System documentation",
+    src: "/assets/file/Se-A7.pdf",
+  },
 ];
