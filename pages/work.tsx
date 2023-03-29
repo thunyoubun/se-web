@@ -3,6 +3,9 @@ import Work from "../components/Work";
 
 import { docs } from "../components/data";
 import Footer from "../components/Footer";
+import Image from "next/image";
+import { AiFillGithub } from "react-icons/ai";
+import Link from "next/link";
 
 export default function work() {
   return (
@@ -26,6 +29,38 @@ export default function work() {
                   key={docs.indexOf(x)}
                 />
               ))}
+
+              <div className=" bg-white rounded-md p-4">
+                <h1 className=" text-lg font-bold my-4">Source Code</h1>
+                <div>
+                  <ul className="flex flex-col gap-2">
+                    <li className=" ">
+                      <Link
+                        href={"https://github.com/thunyoubun/se-quizz"}
+                        target="_blank"
+                        className="flex flex-row gap-3"
+                      >
+                        <AiFillGithub size={30} />
+                        <h1 className=" text-blue-700 hover:text-blue-400 hover:underline">
+                          https://github.com/thunyoubun/se-quizz
+                        </h1>
+                      </Link>
+                    </li>
+                    <li className=" ">
+                      <Link
+                        href={"https://github.com/lalinnx/sebackend"}
+                        target="_blank"
+                        className="flex flex-row gap-3"
+                      >
+                        <AiFillGithub size={30} />
+                        <h1 className=" text-blue-700 hover:text-blue-400 hover:underline">
+                          https://github.com/lalinnx/sebackend
+                        </h1>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
